@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92DD76BC193E7A3C0063F0CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD76BB193E7A3C0063F0CB /* Foundation.framework */; };
+		92DD76BE193E7A3C0063F0CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD76BD193E7A3C0063F0CB /* CoreGraphics.framework */; };
+		92DD76C0193E7A3C0063F0CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD76BF193E7A3C0063F0CB /* UIKit.framework */; };
+		92DD76C6193E7A3C0063F0CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92DD76C4193E7A3C0063F0CB /* InfoPlist.strings */; };
+		92DD76C8193E7A3C0063F0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DD76C7193E7A3C0063F0CB /* main.m */; };
+		92DD76CC193E7A3C0063F0CB /* MakkiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DD76CB193E7A3C0063F0CB /* MakkiAppDelegate.m */; };
+		92DD76CF193E7A3C0063F0CB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DD76CD193E7A3C0063F0CB /* Main_iPhone.storyboard */; };
+		92DD76D2193E7A3C0063F0CB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DD76D0193E7A3C0063F0CB /* Main_iPad.storyboard */; };
+		92DD76D5193E7A3C0063F0CB /* MakkiFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DD76D4193E7A3C0063F0CB /* MakkiFirstViewController.m */; };
+		92DD76D8193E7A3C0063F0CB /* MakkiSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DD76D7193E7A3C0063F0CB /* MakkiSecondViewController.m */; };
+		92DD76DA193E7A3C0063F0CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DD76D9193E7A3C0063F0CB /* Images.xcassets */; };
+		92DD76E1193E7A3C0063F0CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD76E0193E7A3C0063F0CB /* XCTest.framework */; };
+		92DD76E2193E7A3C0063F0CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD76BB193E7A3C0063F0CB /* Foundation.framework */; };
+		92DD76E3193E7A3C0063F0CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD76BF193E7A3C0063F0CB /* UIKit.framework */; };
+		92DD76EB193E7A3C0063F0CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92DD76E9193E7A3C0063F0CB /* InfoPlist.strings */; };
+		92DD76ED193E7A3C0063F0CB /* MakkiMasjidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DD76EC193E7A3C0063F0CB /* MakkiMasjidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DD76E4193E7A3C0063F0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DD76B0193E7A3C0063F0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DD76B7193E7A3C0063F0CB;
+			remoteInfo = MakkiMasjid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92DD76B8193E7A3C0063F0CB /* MakkiMasjid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakkiMasjid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DD76BB193E7A3C0063F0CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92DD76BD193E7A3C0063F0CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92DD76BF193E7A3C0063F0CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92DD76C3193E7A3C0063F0CB /* MakkiMasjid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakkiMasjid-Info.plist"; sourceTree = "<group>"; };
+		92DD76C5193E7A3C0063F0CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92DD76C7193E7A3C0063F0CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92DD76C9193E7A3C0063F0CB /* MakkiMasjid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakkiMasjid-Prefix.pch"; sourceTree = "<group>"; };
+		92DD76CA193E7A3C0063F0CB /* MakkiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakkiAppDelegate.h; sourceTree = "<group>"; };
+		92DD76CB193E7A3C0063F0CB /* MakkiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakkiAppDelegate.m; sourceTree = "<group>"; };
+		92DD76CE193E7A3C0063F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		92DD76D1193E7A3C0063F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		92DD76D3193E7A3C0063F0CB /* MakkiFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakkiFirstViewController.h; sourceTree = "<group>"; };
+		92DD76D4193E7A3C0063F0CB /* MakkiFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakkiFirstViewController.m; sourceTree = "<group>"; };
+		92DD76D6193E7A3C0063F0CB /* MakkiSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakkiSecondViewController.h; sourceTree = "<group>"; };
+		92DD76D7193E7A3C0063F0CB /* MakkiSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakkiSecondViewController.m; sourceTree = "<group>"; };
+		92DD76D9193E7A3C0063F0CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92DD76DF193E7A3C0063F0CB /* MakkiMasjidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakkiMasjidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DD76E0193E7A3C0063F0CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		92DD76E8193E7A3C0063F0CB /* MakkiMasjidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakkiMasjidTests-Info.plist"; sourceTree = "<group>"; };
+		92DD76EA193E7A3C0063F0CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92DD76EC193E7A3C0063F0CB /* MakkiMasjidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakkiMasjidTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DD76B5193E7A3C0063F0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD76BE193E7A3C0063F0CB /* CoreGraphics.framework in Frameworks */,
+				92DD76C0193E7A3C0063F0CB /* UIKit.framework in Frameworks */,
+				92DD76BC193E7A3C0063F0CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DD76DC193E7A3C0063F0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD76E1193E7A3C0063F0CB /* XCTest.framework in Frameworks */,
+				92DD76E3193E7A3C0063F0CB /* UIKit.framework in Frameworks */,
+				92DD76E2193E7A3C0063F0CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DD76AF193E7A3C0063F0CB = {
+			isa = PBXGroup;
+			children = (
+				92DD76C1193E7A3C0063F0CB /* MakkiMasjid */,
+				92DD76E6193E7A3C0063F0CB /* MakkiMasjidTests */,
+				92DD76BA193E7A3C0063F0CB /* Frameworks */,
+				92DD76B9193E7A3C0063F0CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DD76B9193E7A3C0063F0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DD76B8193E7A3C0063F0CB /* MakkiMasjid.app */,
+				92DD76DF193E7A3C0063F0CB /* MakkiMasjidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DD76BA193E7A3C0063F0CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92DD76BB193E7A3C0063F0CB /* Foundation.framework */,
+				92DD76BD193E7A3C0063F0CB /* CoreGraphics.framework */,
+				92DD76BF193E7A3C0063F0CB /* UIKit.framework */,
+				92DD76E0193E7A3C0063F0CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92DD76C1193E7A3C0063F0CB /* MakkiMasjid */ = {
+			isa = PBXGroup;
+			children = (
+				92DD76CA193E7A3C0063F0CB /* MakkiAppDelegate.h */,
+				92DD76CB193E7A3C0063F0CB /* MakkiAppDelegate.m */,
+				92DD76CD193E7A3C0063F0CB /* Main_iPhone.storyboard */,
+				92DD76D0193E7A3C0063F0CB /* Main_iPad.storyboard */,
+				92DD76D3193E7A3C0063F0CB /* MakkiFirstViewController.h */,
+				92DD76D4193E7A3C0063F0CB /* MakkiFirstViewController.m */,
+				92DD76D6193E7A3C0063F0CB /* MakkiSecondViewController.h */,
+				92DD76D7193E7A3C0063F0CB /* MakkiSecondViewController.m */,
+				92DD76D9193E7A3C0063F0CB /* Images.xcassets */,
+				92DD76C2193E7A3C0063F0CB /* Supporting Files */,
+			);
+			path = MakkiMasjid;
+			sourceTree = "<group>";
+		};
+		92DD76C2193E7A3C0063F0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DD76C3193E7A3C0063F0CB /* MakkiMasjid-Info.plist */,
+				92DD76C4193E7A3C0063F0CB /* InfoPlist.strings */,
+				92DD76C7193E7A3C0063F0CB /* main.m */,
+				92DD76C9193E7A3C0063F0CB /* MakkiMasjid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92DD76E6193E7A3C0063F0CB /* MakkiMasjidTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DD76EC193E7A3C0063F0CB /* MakkiMasjidTests.m */,
+				92DD76E7193E7A3C0063F0CB /* Supporting Files */,
+			);
+			path = MakkiMasjidTests;
+			sourceTree = "<group>";
+		};
+		92DD76E7193E7A3C0063F0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DD76E8193E7A3C0063F0CB /* MakkiMasjidTests-Info.plist */,
+				92DD76E9193E7A3C0063F0CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DD76B7193E7A3C0063F0CB /* MakkiMasjid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DD76F0193E7A3C0063F0CB /* Build configuration list for PBXNativeTarget "MakkiMasjid" */;
+			buildPhases = (
+				92DD76B4193E7A3C0063F0CB /* Sources */,
+				92DD76B5193E7A3C0063F0CB /* Frameworks */,
+				92DD76B6193E7A3C0063F0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakkiMasjid;
+			productName = MakkiMasjid;
+			productReference = 92DD76B8193E7A3C0063F0CB /* MakkiMasjid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DD76DE193E7A3C0063F0CB /* MakkiMasjidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DD76F3193E7A3C0063F0CB /* Build configuration list for PBXNativeTarget "MakkiMasjidTests" */;
+			buildPhases = (
+				92DD76DB193E7A3C0063F0CB /* Sources */,
+				92DD76DC193E7A3C0063F0CB /* Frameworks */,
+				92DD76DD193E7A3C0063F0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DD76E5193E7A3C0063F0CB /* PBXTargetDependency */,
+			);
+			name = MakkiMasjidTests;
+			productName = MakkiMasjidTests;
+			productReference = 92DD76DF193E7A3C0063F0CB /* MakkiMasjidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DD76B0193E7A3C0063F0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Makki;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sufyan;
+				TargetAttributes = {
+					92DD76DE193E7A3C0063F0CB = {
+						TestTargetID = 92DD76B7193E7A3C0063F0CB;
+					};
+				};
+			};
+			buildConfigurationList = 92DD76B3193E7A3C0063F0CB /* Build configuration list for PBXProject "MakkiMasjid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DD76AF193E7A3C0063F0CB;
+			productRefGroup = 92DD76B9193E7A3C0063F0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DD76B7193E7A3C0063F0CB /* MakkiMasjid */,
+				92DD76DE193E7A3C0063F0CB /* MakkiMasjidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DD76B6193E7A3C0063F0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD76D2193E7A3C0063F0CB /* Main_iPad.storyboard in Resources */,
+				92DD76DA193E7A3C0063F0CB /* Images.xcassets in Resources */,
+				92DD76CF193E7A3C0063F0CB /* Main_iPhone.storyboard in Resources */,
+				92DD76C6193E7A3C0063F0CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DD76DD193E7A3C0063F0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD76EB193E7A3C0063F0CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DD76B4193E7A3C0063F0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD76CC193E7A3C0063F0CB /* MakkiAppDelegate.m in Sources */,
+				92DD76D5193E7A3C0063F0CB /* MakkiFirstViewController.m in Sources */,
+				92DD76D8193E7A3C0063F0CB /* MakkiSecondViewController.m in Sources */,
+				92DD76C8193E7A3C0063F0CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DD76DB193E7A3C0063F0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD76ED193E7A3C0063F0CB /* MakkiMasjidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DD76E5193E7A3C0063F0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DD76B7193E7A3C0063F0CB /* MakkiMasjid */;
+			targetProxy = 92DD76E4193E7A3C0063F0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DD76C4193E7A3C0063F0CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DD76C5193E7A3C0063F0CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92DD76CD193E7A3C0063F0CB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DD76CE193E7A3C0063F0CB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		92DD76D0193E7A3C0063F0CB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DD76D1193E7A3C0063F0CB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		92DD76E9193E7A3C0063F0CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DD76EA193E7A3C0063F0CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DD76EE193E7A3C0063F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DD76EF193E7A3C0063F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DD76F1193E7A3C0063F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakkiMasjid/MakkiMasjid-Prefix.pch";
+				INFOPLIST_FILE = "MakkiMasjid/MakkiMasjid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92DD76F2193E7A3C0063F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakkiMasjid/MakkiMasjid-Prefix.pch";
+				INFOPLIST_FILE = "MakkiMasjid/MakkiMasjid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92DD76F4193E7A3C0063F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MakkiMasjid.app/MakkiMasjid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakkiMasjid/MakkiMasjid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MakkiMasjidTests/MakkiMasjidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		92DD76F5193E7A3C0063F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MakkiMasjid.app/MakkiMasjid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakkiMasjid/MakkiMasjid-Prefix.pch";
+				INFOPLIST_FILE = "MakkiMasjidTests/MakkiMasjidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DD76B3193E7A3C0063F0CB /* Build configuration list for PBXProject "MakkiMasjid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DD76EE193E7A3C0063F0CB /* Debug */,
+				92DD76EF193E7A3C0063F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DD76F0193E7A3C0063F0CB /* Build configuration list for PBXNativeTarget "MakkiMasjid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DD76F1193E7A3C0063F0CB /* Debug */,
+				92DD76F2193E7A3C0063F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92DD76F3193E7A3C0063F0CB /* Build configuration list for PBXNativeTarget "MakkiMasjidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DD76F4193E7A3C0063F0CB /* Debug */,
+				92DD76F5193E7A3C0063F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DD76B0193E7A3C0063F0CB /* Project object */;
+}
